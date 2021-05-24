@@ -89,7 +89,7 @@ gene_list = ['BRD2', 'STOM', 'SLC30A7', 'SNIP1', 'MOV10', 'COLGALT1', 'ERGIC1',
 user_list_id = get_user_list_id(gene_list)
 
 
-# In[7]:
+# In[51]:
 
 
 result_df = get_enrichment_result(user_list_id)

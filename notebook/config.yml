@@ -1,0 +1,37 @@
+#######################################################################################
+# Book settings
+title : Scientific Python Visualization
+author: Jianhua Wang
+# logo: 'qe-logo-large.png'
+
+# Short description about the book
+description: >-
+  A brief introduction to Python Visualization.
+#######################################################################################
+# Execution settings
+execute:
+  execute_notebooks           : cache
+
+#######################################################################################
+# HTML-specific settings
+html:
+  home_page_in_navbar         : false
+
+# #######################################################################################
+# Interact link settings
+notebook_interface            : "notebook"
+
+#######################################################################################
+# Launch button settings
+repository:
+  url                         : https://github.com/Jianhua-Wang/sci_viz_py
+  path_to_book                : "notebook"
+
+binder:
+  binderhub_url               : "https://mybinder.org"
+  text                        : "Launch binder"
+
+latex:
+  latex_engine                : "xelatex"
+  latex_documents:
+    targetname: book.tex

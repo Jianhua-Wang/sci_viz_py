@@ -95,7 +95,7 @@ user_list_id = get_user_list_id(gene_list)
 result_df = get_enrichment_result(user_list_id)
 
 
-# In[8]:
+# In[64]:
 
 
 plot(result_df,'./kegg.pdf')

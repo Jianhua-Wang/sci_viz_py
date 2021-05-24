@@ -1,1 +1,6 @@
-file: Venn_plot
+file: Gene_set_enrichment
+sections:
+- file: Introduction
+- file: Venn_plot
+- file: color
+- file: manhattan_qq

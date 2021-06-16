@@ -118,3 +118,16 @@ f.subplots_adjust(hspace=0.5)
 
 
 
+
+# 
+# ```{toctree}
+# :hidden:
+# :titlesonly:
+# 
+# 
+# color
+# Venn_plot
+# Gene_set_enrichment
+# manhattan_qq
+# ```
+# 

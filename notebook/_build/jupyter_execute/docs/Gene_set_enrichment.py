@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # Gene Set Enrichment
+
 # In[1]:
 
 
@@ -11,8 +13,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-
-# # fdasfa
 
 # In[2]:
 
@@ -30,8 +30,6 @@ def get_user_list_id(gene_list):
     
     return user_list_id
 
-
-# # fdasfa
 
 # In[3]:
 
@@ -66,7 +64,7 @@ def plot(df, file_name, palette='Blues'):
     f.savefig(file_name, format='pdf', dpi=300)
 
 
-# # fdasfdfsa
+# # Bar plot
 
 # In[5]:
 
@@ -89,33 +87,16 @@ gene_list = ['BRD2', 'STOM', 'SLC30A7', 'SNIP1', 'MOV10', 'COLGALT1', 'ERGIC1',
 user_list_id = get_user_list_id(gene_list)
 
 
-# In[51]:
+# In[7]:
 
 
 result_df = get_enrichment_result(user_list_id)
 
 
-# In[64]:
+# In[8]:
 
 
 plot(result_df,'./kegg.pdf')
 
 
-# In[ ]:
-
-
-
-
-
-# 
-# ```{toctree}
-# :hidden:
-# :titlesonly:
-# 
-# 
-# Introduction
-# Venn_plot
-# color
-# manhattan_qq
-# ```
-# 
+# # Bubble plot

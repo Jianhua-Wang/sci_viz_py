@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# # Colors and Palettes
+
 # In[1]:
 
 

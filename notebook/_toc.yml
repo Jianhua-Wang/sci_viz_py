@@ -1,6 +1,6 @@
-file: docs/Gene_set_enrichment
+file: docs/Introduction
 sections:
-- file: docs/Introduction
-- file: docs/Venn_plot
 - file: docs/color
+- file: docs/Venn_plot
+- file: docs/Gene_set_enrichment
 - file: docs/manhattan_qq
